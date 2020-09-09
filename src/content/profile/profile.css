@@ -1,0 +1,85 @@
+.content{
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+}
+.net{
+  min-height: 100%;
+  display: block;
+  width: 740px;
+}
+.top{
+  background: url('https://images.unsplash.com/photo-1454372182658-c712e4c5a1db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 150px;
+}
+.info{
+  margin-top: 10px;
+  display: flex;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #333;
+  font-size: 16px;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+}
+.others{
+  padding: 5px 25px;
+}
+.info p{
+  margin-bottom: 2px;
+}
+.web a{
+  color: #333;
+  text-decoration: none;
+}
+.name{
+  font-size: 22px;
+  margin-bottom: 6px !important;
+}
+.posts{
+  padding-right: 50px;
+  margin-bottom: 40px;
+}
+.posts p{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.posts textarea{
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: #C0C0C0;
+  margin-bottom: 10px;
+  resize: none;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #333;
+  padding: 10px;
+}
+.posts__button{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  background: #2BC48A;
+  padding: 4px 15px;
+  cursor: pointer;
+  float: right;
+}
+.status{
+  padding: 2px;
+  margin-bottom: 5px !important;
+}
+p.status{
+  cursor: pointer;
+}
+.status--edit{
+  border: 1px solid #000;
+  border-radius: 5px;
+}
